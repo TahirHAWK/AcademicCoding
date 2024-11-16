@@ -21,10 +21,16 @@ int main() {
     // Ratio of chessboard wheat weight to world production
     double p = total_weight_tons / world_production_2015;
 
+    // calculate difference for percent increase 
+    unsigned long long difference = total_weight_tons - world_production_2015;
+    // now the percentage
+    unsigned long long percentage = (difference/world_production_2015)*100;
+
     // Output results
-    printf("Total grains on chessboard: %llu\n", total_grains);
-    printf("Total weight of grains: %.2e mg (%.2f tons)\n", total_weight_mg, total_weight_tons);
+    printf("Total grains on chessboard: %.2e\n", (double)total_grains);
+    printf("Total weight of grains: %.2e mg (%.2e tons)\n", total_weight_mg, total_weight_tons);
     printf("Ratio to 2015 world wheat production: %.2e\n", p);
 
+    printf("So the Total weight of grains in the chessboard is %e tons, and it is more than %llu %% more than the world production.\n", total_weight_tons, percentage);
     return 0;
 }
