@@ -4,6 +4,6 @@ Here I post all the academic coding that are done or learnt by me in lab or duri
 ## SO1 - Software Construstruction 1
 Professor Marc Hansel
 
-# OS - Operating System
+## OS - Operating System
 Professor Dr. Holger Gräßner
 
