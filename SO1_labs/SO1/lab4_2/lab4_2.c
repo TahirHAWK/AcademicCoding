@@ -4,8 +4,8 @@
 #include <math.h>
 
 
-double DistanceKm(double y1, double x1, double y2, double x2);
-double getMaximumDistance(const double coords[][2], int n, int* indexA, int* indexB);
+double DistanceKm(double y1, double x1, double y2, double x2);                              // Function to calculate great-circle distance in km
+double getMaximumDistance(const double coords[][2], int n, int* indexA, int* indexB);       // Function to find the maximum distance between any two locations
 
 
 

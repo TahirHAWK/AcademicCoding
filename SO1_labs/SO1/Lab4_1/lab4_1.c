@@ -4,11 +4,12 @@
 #include <stdio.h>
 #include <math.h>
 
-double DistanceKm(double y1, double x1, double y2, double x2);
-double getRouteLengthKm(const double latitudes[], const double longitudes[], int n);
+double DistanceKm(double y1, double x1, double y2, double x2);                          // Function to calculate great-circle distance in km
+double getRouteLengthKm(const double latitudes[], const double longitudes[], int n);    // Function to calculate the total route length
 
 
 int main() {
+    // opening the file where we will get the co-ordinates
     FILE* file = fopen("GeoRoute.txt", "r");
     if (!file) {
         printf("Error: Could not open file GeoRoute.txt\n");
