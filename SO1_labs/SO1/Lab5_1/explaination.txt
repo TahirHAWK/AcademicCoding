@@ -1,0 +1,23 @@
+### Explanation of the Code:
+
+1. **Degrees to Radians Conversion**:
+   - The function `degreesToRadians` converts latitude and longitude values from degrees to radians because trigonometric functions in C expect angles in radians.
+
+2. **Distance Calculation**:
+   - The `distanceKm` function uses the Haversine formula to compute the distance between two geographic points on the Earth's surface.
+
+3. **User Input Handling**:
+   - The user is prompted to input the number of waypoints.
+   - If the input is invalid or less than or equal to zero, the program will ask again until a valid number is entered.
+   
+4. **Dynamic Memory Allocation**:
+   - Arrays for latitudes and longitudes are dynamically allocated based on the number of waypoints using `malloc`.
+   - Memory is freed at the end using `free` to prevent memory leaks.
+
+5. **Distance Calculation Loop**:
+   - The program sums up the distances between consecutive waypoints to get the total travel distance.
+
+6. **Error Handling**:
+   - If memory allocation fails, the program exits with an error message.
+
+This code ensures correct memory management and handles user input errors gracefully.
