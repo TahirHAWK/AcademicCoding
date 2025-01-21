@@ -21,9 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{70a4110c-e776-45a3-abd6-264b030e6aff}</ProjectGuid>
-    <RootNamespace>Hemispheres</RootNamespace>
+    <ProjectGuid>{f541eee7-b792-4952-892f-86aaf96ee633}</ProjectGuid>
+    <RootNamespace>CopyArrayc</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CopyArray</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,9 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\CopyArray.c\matrixVector.c" />
-    <ClCompile Include="equalArrays.c" />
-    <ClCompile Include="hemispheres.c" />
+    <ClCompile Include="..\Hemispheres\invertArray.c" />
+    <ClCompile Include="2d_array.c" />
+    <ClCompile Include="copyArray.c" />
+    <ClCompile Include="dice.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,13 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hemispheres.c">
+    <ClCompile Include="copyArray.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\CopyArray.c\matrixVector.c">
+    <ClCompile Include="..\Hemispheres\invertArray.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="equalArrays.c">
+    <ClCompile Include="dice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2d_array.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrixVector.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
