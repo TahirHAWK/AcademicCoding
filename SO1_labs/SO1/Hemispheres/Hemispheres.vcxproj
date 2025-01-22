@@ -129,7 +129,12 @@
   <ItemGroup>
     <ClCompile Include="..\CopyArray.c\matrixVector.c" />
     <ClCompile Include="equalArrays.c" />
+    <ClCompile Include="ex60dataSizes.c" />
+    <ClCompile Include="ex61DataType.c" />
     <ClCompile Include="hemispheres.c" />
+    <ClCompile Include="parseKey.c" />
+    <ClCompile Include="pointer.c" />
+    <ClCompile Include="string.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

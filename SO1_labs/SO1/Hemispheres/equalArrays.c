@@ -1,3 +1,4 @@
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
@@ -42,3 +43,5 @@ int isEqualArray(int arr1[5], int arr2[5]) {
 	}
 	return 1;
 }
+
+*/
