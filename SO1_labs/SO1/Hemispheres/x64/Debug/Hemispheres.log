@@ -1,3 +1,5 @@
-﻿  ex61DataType.c
-E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\Hemispheres\ex61DataType.c(7,8): warning C4133: 'initializing': incompatible types - from 'unsigned int *' to 'char *'
+﻿  ex70.c
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\Hemispheres\ex70.c(12,6): warning C4101: 'm': unreferenced local variable
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\Hemispheres\ex70.c(12,9): warning C4101: 'n': unreferenced local variable
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\Hemispheres\ex70.c(26,1): warning C4716: 'substring': must return a value
   Hemispheres.vcxproj -> E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\x64\Debug\Hemispheres.exe

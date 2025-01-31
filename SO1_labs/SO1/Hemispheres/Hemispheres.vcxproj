@@ -131,6 +131,7 @@
     <ClCompile Include="equalArrays.c" />
     <ClCompile Include="ex60dataSizes.c" />
     <ClCompile Include="ex61DataType.c" />
+    <ClCompile Include="ex70.c" />
     <ClCompile Include="hemispheres.c" />
     <ClCompile Include="parseKey.c" />
     <ClCompile Include="pointer.c" />

@@ -1,2 +1,5 @@
 ﻿  lab4_1.c
-  Lab4_1.vcxproj -> E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\x64\Debug\Lab4_1.exe
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\Lab4_1\lab4_1.c(12,2): warning C4013: 'getline' undefined; assuming extern returning int
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\Lab4_1\lab4_1.c(21,1): warning C4716: 'substring': must return a value
+lab4_1.obj : error LNK2019: unresolved external symbol getline referenced in function main
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\x64\Debug\Lab4_1.exe : fatal error LNK1120: 1 unresolved externals

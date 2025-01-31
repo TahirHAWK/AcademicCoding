@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ex74.c" />
+    <ClCompile Include="ex75.c" />
     <ClCompile Include="lab3.1.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

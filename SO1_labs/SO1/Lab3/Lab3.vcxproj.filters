@@ -18,5 +18,11 @@
     <ClCompile Include="lab3.1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ex74.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ex75.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
