@@ -1,3 +1,4 @@
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
@@ -16,7 +17,7 @@ struct teamSeason {
 
 int main() {
 	struct teamSeason team1 = {0};
-	printf("		 win		draw	def | points\n");
+	printf("		 win		drw	def | points\n");
 	addGameResult(&team1, WIN);
 	printf("Win		: %d		%d	%d   | %d\n", team1.victories, team1.draws, team1.losses, getScore(team1));
 	addGameResult(&team1, DEFEAT);
@@ -30,8 +31,6 @@ int main() {
 
 	return 0;
 }
-
-
 void addGameResult(struct teamSeason *team, enum gameResult result) {
 	switch (result) {
 	case DEFEAT:
@@ -52,3 +51,5 @@ void addGameResult(struct teamSeason *team, enum gameResult result) {
 int getScore(struct teamSeason team) {
 	return (team.victories * 3) + (team.draws * 1) + (team.losses*0);
 }
+*/
+

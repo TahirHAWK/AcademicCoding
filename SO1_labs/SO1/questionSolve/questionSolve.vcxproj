@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{29443bd4-5890-4e3c-946c-02b4e9a59395}</ProjectGuid>
-    <RootNamespace>EnumAndTypes</RootNamespace>
+    <ProjectGuid>{29b7ae34-d5a4-48ec-a1bc-72cbfcdb3578}</ProjectGuid>
+    <RootNamespace>questionSolve</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex77.c" />
-    <ClCompile Include="ex78.c" />
-    <ClCompile Include="ex79.c" />
-    <ClCompile Include="ex80.c" />
+    <ClCompile Include="bitte.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,16 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ex77.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex78.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex79.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ex80.c">
+    <ClCompile Include="bitte.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
