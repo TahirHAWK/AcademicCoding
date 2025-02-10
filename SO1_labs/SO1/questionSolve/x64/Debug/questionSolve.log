@@ -1,2 +1,5 @@
 ﻿  bitte.c
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\questionSolve\bitte.c(391,9): warning C4047: 'return': 'int *' differs in levels of indirection from 'int'
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\questionSolve\bitte.c(417,17): warning C4047: 'function': 'int *' differs in levels of indirection from 'int (*)[9]'
+E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\questionSolve\bitte.c(417,17): warning C4024: 'invertArray': different types for formal and actual parameter 1
   questionSolve.vcxproj -> E:\HAW Study\Study materials\AcademicCoding\SO1_labs\SO1\x64\Debug\questionSolve.exe

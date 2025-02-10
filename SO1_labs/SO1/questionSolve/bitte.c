@@ -202,6 +202,7 @@ void clearKeyboardBuffer() {
 
 
 // chapter 20 page 61 complex number and euclidean algorithm
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include<math.h>
 #include<stdio.h>
@@ -248,4 +249,194 @@ struct Complex multiply(struct Complex cN1, struct Complex cN2) {
     cnMul.imag = cN1.real * cN2.imag + cN2.real * cN1.imag;
     return cnMul;
 }
+*/
+
+/* 20.3 divisors and euclidean algorithm , page 62*/
+/*
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <math.h>
+#include <stdlib.h>
+
+void sortDescending(int* a, int* b)
+{
+    if (*b >= *a)
+    {
+        int temp = *a;
+        *a = *b;
+        *b = temp;
+    }
+}
+
+int greatestCommonDivisor(int m, int n)
+{
+   while (1)
+    {
+        sortDescending(&m, &n);
+        int r = (m % n);
+        if (r == 0)
+        {
+            return n;
+        }
+        else
+        {
+            m = n;
+            n = r;
+        }
+    }
+}
+
+int getNumberOfDivisors(int num)
+{
+    int count = 0;
+
+    for (int i = 1; i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+int* newArrayOfDivisors(int x)
+{
+    int size = getNumberOfDivisors(x);
+    int* arr = (int*)malloc(size * sizeof(int));
+
+    if (arr == NULL)
+    {
+        printf("Memory allocation failed. Exiting program.\n");
+        return NULL;
+    }
+
+    int count = 0;
+
+    for (int i = 1; i <= x; i++)
+    {
+        if (x % i == 0)
+        {
+            arr[count] = i;
+            count++;
+        }
+    }
+    return arr;
+}
+
+void clearKeyboardBuffer() {
+    while (getchar() != '\n');  // Read until the newline character
+}
+
+int main()
+{
+    int m, n;
+
+    printf("Enter two positive integer numbers (comma- separated) : ");
+
+    while (scanf("%d,%d", &m, &n) != 2 || m <= 0 || n <= 0) {
+        printf("Invalid input. Retry: ");
+        clearKeyboardBuffer();  // clear invalid input
+    }
+
+    int* array = newArrayOfDivisors(m);
+    printf("Divisor of %d: ", m);
+    if (array != NULL) {
+        for (int i = 0; i < getNumberOfDivisors(m); i++) {
+            printf("%d ", array[i]);
+        }
+        free(array); // Free allocated memory
+    }
+
+    printf("\nGreatest common devisor: gcd(%d, %d) = %d\n", m, n, greatestCommonDivisor(m, n));
+
+    return 0;
+}
+*/
+
+/*
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include<stdlib.h>
+
+void printArray(int* array, int size) {
+    for (int i = 0; i < size; i++) {
+    printf("%d ", array[i]);
+    }
+}
+
+void swap(int* a, int* b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void invertArray(int* array, int size) {
+ 
+    for (int i = 0; i < size; i++) {
+        if (i < (size - 1-i))
+        {
+            swap(&array[i], &array[size - 1 - i]);
+        }
+    }
+}
+
+
+
+int* cloneArray(int *array, int size) {
+    int* newArray = (int*)malloc(size * sizeof(int));
+    if (newArray == NULL) {
+        printf("memory allocation failed.........bitte");
+        return EXIT_FAILURE;
+    }
+
+    for (int i = 0; i < size; i++) {
+        newArray[i] = array[i];
+    }
+    return newArray;
+}
+
+int main() {
+    int array[9] = { 0 };
+    for (int i = 0; i < 9; i++) {
+        array[i] = i+1;
+    }
+    printf("Input %10c : ", ' ');
+    printArray(array, 9);
+    int *array2 = cloneArray(array, 9);
+    if (array2 == NULL) {
+        printf("memory allocation failed.........bitte");
+        return 0;
+    }
+  
+    printf("\nClone %10c : ", ' ');
+    printArray(array2, 9);
+    printf("\nInverted %7c : ", ' ');
+
+    invertArray(&array, 9);
+    printArray(array, 9);
+
+
+
+    free(array2);
+    return 0;
+}
+*/
+// 24.2 series expansion page 72
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include<stdlib.h>
+#define _USE_MATH_DEFINES
+#include<math.h>
+
+double sine();
+double principalValue();
+
+int main() {
+    return 0;
+}
+
 

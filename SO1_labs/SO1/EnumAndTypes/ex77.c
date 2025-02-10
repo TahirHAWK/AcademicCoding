@@ -52,4 +52,10 @@ int getScore(struct teamSeason team) {
 	return (team.victories * 3) + (team.draws * 1) + (team.losses*0);
 }
 */
-
+#include<stdio.h>
+int main() {
+	int x, y;
+	int z = scanf("%d,%d", &x, &y);
+	printf("%d ", z);
+	return 0;
+}

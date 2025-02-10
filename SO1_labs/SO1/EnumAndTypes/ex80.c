@@ -1,3 +1,4 @@
+/*
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
@@ -45,6 +46,7 @@ struct time timeFromSec(unsigned int seconds) {
 struct time timePeriod(struct time t1, struct time t2) {
 
 }
+*/
 
 
 /* Code done by the ultimate Tonmoy bruder
